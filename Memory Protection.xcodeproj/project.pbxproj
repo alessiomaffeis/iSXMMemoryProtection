@@ -1,0 +1,311 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A6583D1176F2EC3005C45BD /* ScanX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6583D0176F2EC3005C45BD /* ScanX.framework */; };
+		7A9EE53A16E76E00004770AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9EE53916E76E00004770AA /* Cocoa.framework */; };
+		7A9EE54416E76E00004770AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A9EE54216E76E00004770AA /* InfoPlist.strings */; };
+		7AA1B00C176F7B9A0053E86A /* iSXMMemoryProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1B00B176F7B9A0053E86A /* iSXMMemoryProtection.m */; };
+		7AE9FD361770920E00E0E19A /* Module.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7AE9FD351770920E00E0E19A /* Module.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A5343CD17D9233A00C7C86A /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
+		7A6583D0176F2EC3005C45BD /* ScanX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanX.framework; path = ../ScanX/DerivedData/ScanX/Build/Products/Release/ScanX.framework; sourceTree = "<group>"; };
+		7A9EE53616E76E00004770AA /* Memory Protection.isxm */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory Protection.isxm"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A9EE53916E76E00004770AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7A9EE53C16E76E00004770AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7A9EE53D16E76E00004770AA /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7A9EE53E16E76E00004770AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7A9EE54116E76E00004770AA /* Memory Protection-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory Protection-Info.plist"; sourceTree = "<group>"; };
+		7A9EE54316E76E00004770AA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7A9EE54516E76E00004770AA /* Memory Protection-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memory Protection-Prefix.pch"; sourceTree = "<group>"; };
+		7AA1B00A176F7B9A0053E86A /* iSXMMemoryProtection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSXMMemoryProtection.h; sourceTree = "<group>"; };
+		7AA1B00B176F7B9A0053E86A /* iSXMMemoryProtection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iSXMMemoryProtection.m; sourceTree = "<group>"; };
+		7AE6CB1317D22C6200EC9421 /* iSXApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iSXApp.h; sourceTree = "<group>"; };
+		7AE9FD351770920E00E0E19A /* Module.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Module.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A9EE53316E76E00004770AA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9EE53A16E76E00004770AA /* Cocoa.framework in Frameworks */,
+				7A6583D1176F2EC3005C45BD /* ScanX.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A5343D117D9233F00C7C86A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				7AE6CB1317D22C6200EC9421 /* iSXApp.h */,
+				7A5343CD17D9233A00C7C86A /* NSFileManager+DirectoryLocations.h */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		7A9EE52B16E76E00004770AA = {
+			isa = PBXGroup;
+			children = (
+				7A9EE53F16E76E00004770AA /* iOScanX Module */,
+				7A9EE53816E76E00004770AA /* Frameworks */,
+				7A9EE53716E76E00004770AA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A9EE53716E76E00004770AA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EE53616E76E00004770AA /* Memory Protection.isxm */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A9EE53816E76E00004770AA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A6583D0176F2EC3005C45BD /* ScanX.framework */,
+				7A9EE53916E76E00004770AA /* Cocoa.framework */,
+				7A9EE53B16E76E00004770AA /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7A9EE53B16E76E00004770AA /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EE53C16E76E00004770AA /* AppKit.framework */,
+				7A9EE53D16E76E00004770AA /* CoreData.framework */,
+				7A9EE53E16E76E00004770AA /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7A9EE53F16E76E00004770AA /* iOScanX Module */ = {
+			isa = PBXGroup;
+			children = (
+				7AA1B00A176F7B9A0053E86A /* iSXMMemoryProtection.h */,
+				7AA1B00B176F7B9A0053E86A /* iSXMMemoryProtection.m */,
+				7A9EE54016E76E00004770AA /* Supporting Files */,
+				7A5343D117D9233F00C7C86A /* Other */,
+			);
+			path = "iOScanX Module";
+			sourceTree = "<group>";
+		};
+		7A9EE54016E76E00004770AA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7A9EE54116E76E00004770AA /* Memory Protection-Info.plist */,
+				7AE9FD351770920E00E0E19A /* Module.plist */,
+				7A9EE54216E76E00004770AA /* InfoPlist.strings */,
+				7A9EE54516E76E00004770AA /* Memory Protection-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A9EE53516E76E00004770AA /* Memory Protection */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A9EE54816E76E00004770AA /* Build configuration list for PBXNativeTarget "Memory Protection" */;
+			buildPhases = (
+				7A9EE53216E76E00004770AA /* Sources */,
+				7A9EE53316E76E00004770AA /* Frameworks */,
+				7A9EE53416E76E00004770AA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memory Protection";
+			productName = "ScanX Module";
+			productReference = 7A9EE53616E76E00004770AA /* Memory Protection.isxm */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A9EE52D16E76E00004770AA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Alessio Maffeis";
+			};
+			buildConfigurationList = 7A9EE53016E76E00004770AA /* Build configuration list for PBXProject "Memory Protection" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7A9EE52B16E76E00004770AA;
+			productRefGroup = 7A9EE53716E76E00004770AA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A9EE53516E76E00004770AA /* Memory Protection */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A9EE53416E76E00004770AA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A9EE54416E76E00004770AA /* InfoPlist.strings in Resources */,
+				7AE9FD361770920E00E0E19A /* Module.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A9EE53216E76E00004770AA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AA1B00C176F7B9A0053E86A /* iSXMMemoryProtection.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A9EE54216E76E00004770AA /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A9EE54316E76E00004770AA /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A9EE54616E76E00004770AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/build";
+				WRAPPER_EXTENSION = isxm;
+			};
+			name = Debug;
+		};
+		7A9EE54716E76E00004770AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+				SYMROOT = "$(PROJECT_DIR)/build";
+				WRAPPER_EXTENSION = isxm;
+			};
+			name = Release;
+		};
+		7A9EE54916E76E00004770AA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ScanX/DerivedData/ScanX/Build/Products/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOScanX Module/Memory Protection-Prefix.pch";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "iOScanX Module/Memory Protection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "Memory Protection";
+				WRAPPER_EXTENSION = isxm;
+			};
+			name = Debug;
+		};
+		7A9EE54A16E76E00004770AA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../ScanX/DerivedData/ScanX/Build/Products/Release\"",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iOScanX Module/Memory Protection-Prefix.pch";
+				GENERATE_PKGINFO_FILE = YES;
+				INFOPLIST_FILE = "iOScanX Module/Memory Protection-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				PRODUCT_NAME = "Memory Protection";
+				WRAPPER_EXTENSION = isxm;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A9EE53016E76E00004770AA /* Build configuration list for PBXProject "Memory Protection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9EE54616E76E00004770AA /* Debug */,
+				7A9EE54716E76E00004770AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A9EE54816E76E00004770AA /* Build configuration list for PBXNativeTarget "Memory Protection" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A9EE54916E76E00004770AA /* Debug */,
+				7A9EE54A16E76E00004770AA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A9EE52D16E76E00004770AA /* Project object */;
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>name</key>
+	<string>Memory Protection</string>
+	<key>prefix</key>
+	<string>mp</string>
+	<key>readonly</key>
+	<true/>
+	<key>metrics</key>
+	<array>
+		<dict>
+			<key>name</key>
+			<string>pie</string>
+			<key>description</key>
+			<string>Set to 1 whether PIE (Position Independent Executable) is active, 0 otherwise.</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>ssp</string>
+			<key>description</key>
+			<string>Set to 1 whether SSP (Stack Smashing Protection is active), 0 otherwise.</string>
+		</dict>
+		<dict>
+			<key>name</key>
+			<string>arc</string>
+			<key>description</key>
+			<string>Set to 1 whether ARC (Automatic Reference Counting), 0 otherwise.</string>
+		</dict>
+	</array>
+</dict>
+</plist>

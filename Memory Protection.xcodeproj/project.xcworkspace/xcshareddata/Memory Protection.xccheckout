@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8E696CF2-7A4F-4D20-B3D5-665BE6102B52</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Memory Protection</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9FC2AD10-30EE-4B59-8B0A-71E5595B07A2</key>
+		<string>https://github.com/alessiomaffeis/ScanX.git</string>
+		<key>A4DB932A-6144-4A74-A200-55DD9E6D0CF7</key>
+		<string>https://github.com/alessiomaffeis/iOScanX-Module.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Memory Protection.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9FC2AD10-30EE-4B59-8B0A-71E5595B07A2</key>
+		<string>../../../ScanX</string>
+		<key>A4DB932A-6144-4A74-A200-55DD9E6D0CF7</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/alessiomaffeis/iOScanX-Module.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>A4DB932A-6144-4A74-A200-55DD9E6D0CF7</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>A4DB932A-6144-4A74-A200-55DD9E6D0CF7</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iOScanX Module - Memory Protection</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9FC2AD10-30EE-4B59-8B0A-71E5595B07A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ScanX</string>
+		</dict>
+	</array>
+</dict>
+</plist>
