@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7A6583D1176F2EC3005C45BD /* ScanX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A6583D0176F2EC3005C45BD /* ScanX.framework */; };
+		7A78DDE518169B9E008969AB /* ScanX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A78DDE418169B9E008969AB /* ScanX.framework */; };
 		7A9EE53A16E76E00004770AA /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A9EE53916E76E00004770AA /* Cocoa.framework */; };
 		7A9EE54416E76E00004770AA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7A9EE54216E76E00004770AA /* InfoPlist.strings */; };
 		7AA1B00C176F7B9A0053E86A /* iSXMMemoryProtection.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AA1B00B176F7B9A0053E86A /* iSXMMemoryProtection.m */; };
@@ -16,7 +16,7 @@
 
 /* Begin PBXFileReference section */
 		7A5343CD17D9233A00C7C86A /* NSFileManager+DirectoryLocations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSFileManager+DirectoryLocations.h"; sourceTree = "<group>"; };
-		7A6583D0176F2EC3005C45BD /* ScanX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanX.framework; path = ../ScanX/DerivedData/ScanX/Build/Products/Release/ScanX.framework; sourceTree = "<group>"; };
+		7A78DDE418169B9E008969AB /* ScanX.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ScanX.framework; path = ../ScanX/DerivedData/ScanX/Build/Products/Debug/ScanX.framework; sourceTree = "<group>"; };
 		7A9EE53616E76E00004770AA /* Memory Protection.isxm */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory Protection.isxm"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A9EE53916E76E00004770AA /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		7A9EE53C16E76E00004770AA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,8 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A78DDE518169B9E008969AB /* ScanX.framework in Frameworks */,
 				7A9EE53A16E76E00004770AA /* Cocoa.framework in Frameworks */,
-				7A6583D1176F2EC3005C45BD /* ScanX.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,7 +73,7 @@
 		7A9EE53816E76E00004770AA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7A6583D0176F2EC3005C45BD /* ScanX.framework */,
+				7A78DDE418169B9E008969AB /* ScanX.framework */,
 				7A9EE53916E76E00004770AA /* Cocoa.framework */,
 				7A9EE53B16E76E00004770AA /* Other Frameworks */,
 			);
@@ -250,11 +250,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../ScanX/DerivedData/ScanX/Build/Products/Release\"",
-					"\"$(SRCROOT)\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/maffo/Documents/Thesis/Project/ScanX/DerivedData/ScanX/Build/Products/Debug;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOScanX Module/Memory Protection-Prefix.pch";
 				GENERATE_PKGINFO_FILE = YES;
@@ -269,11 +265,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(SRCROOT)/../ScanX/DerivedData/ScanX/Build/Products/Release\"",
-					"\"$(SRCROOT)\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = /Users/maffo/Documents/Thesis/Project/ScanX/DerivedData/ScanX/Build/Products/Debug;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOScanX Module/Memory Protection-Prefix.pch";
 				GENERATE_PKGINFO_FILE = YES;

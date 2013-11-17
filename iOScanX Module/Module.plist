@@ -20,7 +20,7 @@
 			<key>name</key>
 			<string>ssp</string>
 			<key>description</key>
-			<string>Set to 1 whether SSP (Stack Smashing Protection is active), 0 otherwise.</string>
+			<string>Set to 1 whether SSP (Stack Smashing Protection) is active, 0 otherwise.</string>
 		</dict>
 		<dict>
 			<key>name</key>

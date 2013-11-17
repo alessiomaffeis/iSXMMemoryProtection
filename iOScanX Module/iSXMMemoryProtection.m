@@ -65,9 +65,11 @@
             NSInteger ssp = 0;
             NSInteger arc = 0;
             
-            NSString *escAppName = [theItem.name stringByReplacingOccurrencesOfString:@"'"
-                                                                      withString:@"'\\''"];
-            NSString *decrypted = [NSString stringWithFormat:@"%@/%@/%@.decrypted", itemPath, escAppName, [escAppName stringByDeletingPathExtension]];
+            NSString *escAppName = [theItem.bundleName stringByReplacingOccurrencesOfString:@"'"
+                                                                                 withString:@"'\\''"];
+            NSString *escExeName = [theItem.executableName stringByReplacingOccurrencesOfString:@"'"
+                                                                                     withString:@"'\\''"];
+            NSString *decrypted = [NSString stringWithFormat:@"%@/%@/%@.decrypted", itemPath, escAppName, escExeName];
             NSArray *args = [NSArray arrayWithObjects: @"-hv", decrypted, nil];
             NSTask *otool = [[NSTask alloc] init];
             NSPipe *output = [NSPipe pipe];
